@@ -1,7 +1,20 @@
 {
-  "name": "perf2k2/yii-acsa",
+  "name": "perf2k2/yii2-acsa",
   "description": "Classes for smart (and short) access to standard yii2 application components",
+  "keywords": ["yii2"],
+  "authors": [
+    {
+      "name": "Perf2k2",
+      "email": "perf2k2@gmail.com"
+    }
+  ],
   "require": {
-    "php": ">=5.3.0"
+    "php": ">=5.3.0",
+    "yiisoft/yii2": ">=2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "perf2k2\\yii\\acsa\\": ""
+    }
   }
 }
