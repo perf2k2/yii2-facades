@@ -2,6 +2,8 @@
   "name": "perf2k2/yii2-acsa",
   "description": "Classes for smart (and short) access to standard yii2 application components",
   "keywords": ["yii2"],
+  "type": "extension",
+  "license": "MIT",
   "authors": [
     {
       "name": "Romannikov Nikita",
