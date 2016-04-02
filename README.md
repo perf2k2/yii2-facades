@@ -1,1 +1,1 @@
-# yii-acsc
+# Yii2 Application Components Smart Access (yii-acsa)
