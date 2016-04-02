@@ -1,0 +1,7 @@
+{
+  "name": "perf2k2/yii-acsa",
+  "description": "Classes for smart (and short) access to standard yii2 application components",
+  "require": {
+    "php": ">=5.3.0"
+  }
+}
