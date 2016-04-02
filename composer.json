@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "perf2k2\\yii\\acsa\\": ""
+      "perf2k2\\yii2\\acsa\\": ""
     }
   }
 }
