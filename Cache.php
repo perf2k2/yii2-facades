@@ -6,7 +6,7 @@
  * Time: 16:08
  */
 
-namespace perf2k2\yii2\acsa;
+namespace perf2k2\yii2\sugar;
 
 
 class Cache {

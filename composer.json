@@ -1,5 +1,5 @@
 {
-  "name": "perf2k2/yii2-acsa",
+  "name": "perf2k2/yii2-sugar",
   "description": "Classes for smart (and short) access to standard yii2 application components",
   "keywords": ["yii2"],
   "type": "extension",
@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "perf2k2\\yii2\\acsa\\": ""
+      "perf2k2\\yii2\\sugar\\": ""
     }
   }
 }
