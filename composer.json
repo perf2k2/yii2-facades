@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "perf2k2\\yii2\\sugar\\": ""
+      "perf2k2\\yii2\\sugar\\": "src/"
     }
   }
 }
