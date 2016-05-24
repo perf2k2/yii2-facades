@@ -1,13 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: developer
- * Date: 10.02.16
- * Time: 16:08
- */
 
 namespace perf2k2\yii2\sugar;
-
 
 class Request {
 
