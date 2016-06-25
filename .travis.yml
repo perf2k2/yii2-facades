@@ -9,4 +9,7 @@ php:
   - nightly
 
 script:
+  - composer install
   - phpunit --coverage-text ./tests/bootstrap.php ./tests/src
+
+
