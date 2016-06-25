@@ -31,6 +31,6 @@ class Headers {
 
     public static function remove($name)
     {
-        self::instance()->remove($name);
+        return self::instance()->remove($name);
     }
 }

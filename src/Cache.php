@@ -8,9 +8,10 @@ class Cache {
     {
         return \Yii::$app->cache;
     }
+
     public static function set($key, $value, $duration = 0, $dependency = null)
     {
-        self::instance()->set($key, $value, $duration, $dependency);
+        return self::instance()->set($key, $value, $duration, $dependency);
     }
 
     public static function get($key)

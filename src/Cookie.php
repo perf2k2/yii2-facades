@@ -14,15 +14,6 @@ class Cookie {
         return self::instance()->has($name);
     }
 
-    public static function get($name, $defaultValue = null, $withoutCsrfCheck = false)
-    {
-        if ($withoutCsrfCheck === true) {
-            return isset($_COOKIE[$name]) ? $_COOKIE[$name] : $defaultValue;
-        } else {
-            return self::instance()->getValue($name, $defaultValue);
-        }
-    }
-
     public static function set($name, $value, $expire = 0, $domain = '', $path = '/', $secure = false, $httpOnly = true)
     {
         self::instance()->add(new \yii\web\Cookie([
@@ -34,6 +25,15 @@ class Cookie {
             'secure' => $secure,
             'httpOnly' => $httpOnly,
         ]));
+    }
+
+    public static function get($name, $defaultValue = null, $withoutCsrfCheck = false)
+    {
+        if ($withoutCsrfCheck === true) {
+            return isset($_COOKIE[$name]) ? $_COOKIE[$name] : $defaultValue;
+        } else {
+            return self::instance()->getValue($name, $defaultValue);
+        }
     }
 
     public static function remove($name)

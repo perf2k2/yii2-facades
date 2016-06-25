@@ -1,1 +1,1 @@
-# Yii2 Application Components Smart Access (yii2-acsa)
+# Syntactic sugar for Yii2 application components
