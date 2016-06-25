@@ -9,7 +9,7 @@ php:
   - nightly
 
 script:
-  - composer install
+  - composer create-project yiisoft/yii2-app-basic basic 2.0.8
   - phpunit --coverage-text ./tests/bootstrap.php ./tests/src
 
 
