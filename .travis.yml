@@ -9,7 +9,8 @@ php:
   - nightly
 
 script:
-  - composer create-project yiisoft/yii2-app-basic basic 2.0.8
+  - composer global require "fxp/composer-asset-plugin:~1.1.1"
+  - composer create-project --prefer-dist yiisoft/yii2-app-basic basic
   - phpunit --coverage-text ./tests/bootstrap.php ./tests/src
 
 
