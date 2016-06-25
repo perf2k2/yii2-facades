@@ -1,2 +1,2 @@
 # Syntactic sugar for Yii2 application components
-[![Build Status](https://travis-ci.org/perf2k2/yii2-sugar.svg?branch=master)](https://travis-ci.org/perf2k2/yii2-sugar)
+[![Build Status](https://travis-ci.org/perf2k2/yii2-sugar.svg?branch=master)](https://travis-ci.org/perf2k2/yii2-sugar) [![codecov](https://codecov.io/gh/perf2k2/yii2-sugar/branch/master/graph/badge.svg)](https://codecov.io/gh/perf2k2/yii2-sugar)
