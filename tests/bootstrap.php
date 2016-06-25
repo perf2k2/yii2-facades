@@ -7,6 +7,7 @@ require(__DIR__ . '/app/vendor/autoload.php');
 require(__DIR__ . '/app/vendor/yiisoft/yii2/Yii.php');
 
 $config = require(__DIR__ . '/app/config/web.php');
+$config['components']['assetManager']['basePath'] =  '@webroot/assets';
 
 (new yii\web\Application($config))->run();
 
