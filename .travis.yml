@@ -12,3 +12,7 @@ script:
   - composer global require "fxp/composer-asset-plugin:~1.1.1"
   - composer create-project --prefer-dist yiisoft/yii2-app-basic ./tests/app
   - phpunit --coverage-text --bootstrap ./tests/bootstrap.php ./tests/src
+  - bin/atoum --test-all
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
