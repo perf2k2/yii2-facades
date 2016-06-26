@@ -14,7 +14,7 @@ class Cookie {
         return self::instance()->has($name);
     }
 
-    public static function set($name, $value, $expire = 0, $domain = '', $path = '/', $secure = false, $httpOnly = true)
+    public static function add($name, $value, $expire = 0, $domain = '', $path = '/', $secure = false, $httpOnly = true)
     {
         self::instance()->add(new \yii\web\Cookie([
             'name' => $name,

@@ -15,7 +15,7 @@ $cookies->add(new \yii\web\Cookie([
 and so
 
 ```php
-Cookie::set('language', 'zh-CN');
+Cookie::add('language', 'zh-CN');
 ```
 
 ## Install
