@@ -14,19 +14,19 @@ class Headers {
         return self::instance()->has($name);
     }
 
-    public static function get($name)
+    public static function get($name, $default = null, $first = true)
     {
-        return self::instance()->get($name);
+        return self::instance()->get($name, $default, $first);
     }
 
     public static function add($name, $value)
     {
-        self::instance()->add($name, $value);
+        return self::instance()->add($name, $value);
     }
 
-    public static function set($name, $value)
+    public static function set($name, $value = '')
     {
-        self::instance()->set($name, $value);
+        return self::instance()->set($name, $value);
     }
 
     public static function remove($name)
