@@ -27,13 +27,9 @@ class Cookie {
         ]));
     }
 
-    public static function get($name, $defaultValue = null, $withoutCsrfCheck = false)
+    public static function get($name, $defaultValue = null)
     {
-        if ($withoutCsrfCheck === true) {
-            return isset($_COOKIE[$name]) ? $_COOKIE[$name] : $defaultValue;
-        } else {
-            return self::instance()->getValue($name, $defaultValue);
-        }
+        return self::instance()->getValue($name, $defaultValue);
     }
 
     public static function remove($name)
