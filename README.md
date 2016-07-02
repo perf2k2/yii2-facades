@@ -18,6 +18,14 @@ and so
 Cookies::add('language', 'zh-CN');
 ```
 
+## Supported components
+
+* Cache
+* Cookies
+* Db
+* Headers
+* Request
+
 ## Install
 The fastest and most convenient way is using composer:
 
