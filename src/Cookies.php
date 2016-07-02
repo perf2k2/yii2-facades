@@ -2,7 +2,7 @@
 
 namespace perf2k2\yii2\sugar;
 
-class Cookie {
+class Cookies {
 
     public static function instance()
     {

@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/perf2k2/yii2-sugar.svg?branch=master)](https://travis-ci.org/perf2k2/yii2-sugar) [![Coverage Status](https://coveralls.io/repos/github/perf2k2/yii2-sugar/badge.svg?branch=master)](https://coveralls.io/github/perf2k2/yii2-sugar?branch=master)
 
 ## Why? 
-In order to install cookies code was not so
+In order to install cookie code was not so
 
 ```php
 $cookies = Yii::$app->response->cookies;
@@ -15,7 +15,7 @@ $cookies->add(new \yii\web\Cookie([
 and so
 
 ```php
-Cookie::add('language', 'zh-CN');
+Cookies::add('language', 'zh-CN');
 ```
 
 ## Install
