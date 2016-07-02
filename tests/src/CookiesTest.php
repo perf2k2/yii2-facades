@@ -21,7 +21,7 @@ class CookiesTest extends PHPUnit_Framework_TestCase
 
     public function testAdd()
     {
-        Cookies::add('test_cookie', 'value', null);
+        Cookies::add('test_cookie', 'value', '', null);
         $this->assertTrue(Cookies::has('test_cookie'));
     }
 
