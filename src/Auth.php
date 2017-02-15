@@ -24,7 +24,7 @@ class Auth
      * @return boolean whether the user has the specified permission.
      * @throws \yii\base\InvalidParamException if $permissionName does not refer to an existing permission
      */
-    public function checkAccess($userId, $permissionName, $params = [])
+    public static function checkAccess($userId, $permissionName, $params = [])
     {
         return self::instance()->checkAccess($userId, $permissionName, $params);
     }
