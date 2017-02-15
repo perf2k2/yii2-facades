@@ -1,6 +1,6 @@
 <?php
 
-use perf2k2\yii2\sugar\Cache;
+use perf2k2\yii2\facades\Cache;
 
 class CacheTest extends PHPUnit_Framework_TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-use perf2k2\yii2\sugar\Request;
+use perf2k2\yii2\facades\Request;
 
 class RequestTest extends PHPUnit_Framework_TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-use perf2k2\yii2\sugar\Headers;
+use perf2k2\yii2\facades\Headers;
 
 class HeadersTest extends PHPUnit_Framework_TestCase
 {

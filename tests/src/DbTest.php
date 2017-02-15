@@ -1,6 +1,6 @@
 <?php
 
-use perf2k2\yii2\sugar\Db;
+use perf2k2\yii2\facades\Db;
 
 class DbTest extends PHPUnit_Framework_TestCase
 {

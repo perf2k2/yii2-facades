@@ -13,6 +13,6 @@ $config['components']['assetManager']['basePath'] =  '@app/web/assets';
 
 spl_autoload_register(function($class) {
     if (strpos($class, 'perf2k2') !== false) {
-        require_once __DIR__ . '/../src/' . str_replace('perf2k2\\yii2\\sugar\\', '', $class) . '.php';
+        require_once __DIR__ . '/../src/' . str_replace('perf2k2\\yii2\\facades\\', '', $class) . '.php';
     }
 });

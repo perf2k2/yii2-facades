@@ -1,6 +1,6 @@
 <?php
 
-use perf2k2\yii2\sugar\Cookies;
+use perf2k2\yii2\facades\Cookies;
 
 class CookiesTest extends PHPUnit_Framework_TestCase
 {

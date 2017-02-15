@@ -1,9 +1,9 @@
 {
-  "name": "perf2k2/yii2-sugar",
-  "description": "Syntactic sugar for Yii2 application components",
+  "name": "perf2k2/yii2-facades",
+  "description": "Facades for standard Yii2 application components",
   "keywords": ["yii2"],
   "type": "library",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "authors": [
     {
@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "perf2k2\\yii2\\sugar\\": "src/"
+      "perf2k2\\yii2\\facades\\": "src/"
     }
   }
 }

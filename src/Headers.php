@@ -1,6 +1,6 @@
 <?php
 
-namespace perf2k2\yii2\sugar;
+namespace perf2k2\yii2\facades;
 
 class Headers {
 
