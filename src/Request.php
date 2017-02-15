@@ -2,8 +2,8 @@
 
 namespace perf2k2\yii2\facades;
 
-class Request {
-
+class Request
+{
     /**
      * @return \yii\console\Request|\yii\web\Request
      */

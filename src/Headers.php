@@ -2,8 +2,8 @@
 
 namespace perf2k2\yii2\facades;
 
-class Headers {
-
+class Headers
+{
     /**
      * @return \yii\web\HeaderCollection
      */

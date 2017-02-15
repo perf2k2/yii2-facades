@@ -2,8 +2,8 @@
 
 namespace perf2k2\yii2\facades;
 
-class User {
-
+class User
+{
     /**
      * @return mixed|\yii\web\User
      */

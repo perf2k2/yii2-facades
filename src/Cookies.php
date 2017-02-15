@@ -2,8 +2,8 @@
 
 namespace perf2k2\yii2\facades;
 
-class Cookies {
-
+class Cookies
+{
     /**
      * @return mixed|\yii\web\CookieCollection
      */

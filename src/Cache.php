@@ -2,8 +2,8 @@
 
 namespace perf2k2\yii2\facades;
 
-class Cache {
-
+class Cache
+{
     /**
      * @return \yii\caching\Cache
      */
