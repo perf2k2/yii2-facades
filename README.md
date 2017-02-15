@@ -26,6 +26,7 @@ Cookies::add('language', 'zh-CN');
 * Headers
 * Request
 * User (part of it)
+* Auth (part of it)
 
 ## Install
 The fastest way is using composer:
