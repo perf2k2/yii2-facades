@@ -28,4 +28,12 @@ class Auth
     {
         return self::instance()->checkAccess($userId, $permissionName, $params);
     }
+
+    /**
+     * Alias for checkAccess method
+     */
+    public static function allow($userId, $permissionName, $params = [])
+    {
+        return self::checkAccess($userId, $permissionName, $params);
+    }
 }
