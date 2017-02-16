@@ -17,7 +17,7 @@ class User
      * @return boolean whether the current user is a guest.
      * @see getIdentity()
      */
-    public function isGuest()
+    public static function isGuest()
     {
         return self::instance()->getIsGuest();
     }
@@ -27,7 +27,7 @@ class User
      * @return string|integer the unique identifier for the user. If null, it means the user is a guest.
      * @see getIdentity()
      */
-    public function getId()
+    public static function getId()
     {
         return self::instance()->getId();
     }
