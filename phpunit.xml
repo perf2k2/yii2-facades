@@ -5,6 +5,12 @@
          convertNoticesToExceptions="true"
          convertWarningsToExceptions="true"
          stopOnFailure="false">
+    <testsuites>
+        <testsuite name="Main">
+            <directory>tests/</directory>
+            <exclude>tests/app</exclude>
+        </testsuite>
+    </testsuites>
     <filter>
         <whitelist>
             <directory suffix=".php">src</directory>
@@ -16,4 +22,5 @@
     <logging>
         <log type="coverage-clover" target="build/logs/clover.xml"/>
     </logging>
+    <exclude>tests/app</exclude>
 </phpunit>
