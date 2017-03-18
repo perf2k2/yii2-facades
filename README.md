@@ -20,11 +20,11 @@ Cookies::add('language', 'zh-CN');
 
 ## Supported components
 
-* Cache
-* Cookies
-* Db
-* Headers
-* Request
+* Cache (part of it)
+* Cookies (part of it)
+* Db (part of it)
+* Headers (part of it)
+* Request (part of it)
 * User (part of it)
 * Auth (part of it)
 * Session (part of it)
