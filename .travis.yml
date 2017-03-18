@@ -12,7 +12,7 @@ php:
 script:
   - composer global require "fxp/composer-asset-plugin:~1.1.1"
   - composer create-project --prefer-dist yiisoft/yii2-app-basic ./tests/app
-  - composer require --dev phpunit/phpunit ^5.0
+  - composer require phpunit/phpunit ^5.0
   - composer require satooshi/php-coveralls '~1.0'
   - mkdir -p build/logs
   - phpunit
