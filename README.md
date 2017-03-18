@@ -28,6 +28,7 @@ Cookies::add('language', 'zh-CN');
 * User (part of it)
 * Auth (part of it)
 * Session (part of it)
+* Formatter (part of it)
 
 ## Install
 The fastest way is using composer:
