@@ -8,13 +8,11 @@ php:
   - '7.1'
   - hhvm
 
-script:
+before_script:
   - composer global require "fxp/composer-asset-plugin:^1.2.0"
   - composer create-project --prefer-dist yiisoft/yii2-app-basic ./tests/app
-  - composer require phpunit/phpunit ^5.0
   - composer require satooshi/php-coveralls '~1.0'
   - mkdir -p build/logs
-  - phpunit
 
 after_success:
   - travis_retry php vendor/bin/coveralls
