@@ -10,10 +10,10 @@ php:
   - hhvm
 
 script:
-  - composer require yidas/yii2-composer-bower-skip
+  - composer require fxp/composer-asset-plugin:~1.1.1
+  - composer create-project --prefer-dist yiisoft/yii2-app-basic ./tests/app
   - composer require phpunit/phpunit ^5.0
   - composer require satooshi/php-coveralls '~1.0'
-  - composer create-project --prefer-dist yiisoft/yii2-app-basic ./tests/app
   - mkdir -p build/logs
   - phpunit
 
