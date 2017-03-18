@@ -6,7 +6,7 @@ class SessionTest extends PHPUnit_Framework_TestCase
 {
     public function testInstance()
     {
-        $this->assertInstanceOf(\yii\web\Session::class, Session::instance());
+        $this->assertInstanceOf('\yii\web\Session', Session::instance());
     }
 
     public function testHas()
